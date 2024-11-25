@@ -378,7 +378,7 @@ const NDIlib_v5 *load_ndilib()
 	// https://github.com/DistroAV/DistroAV/blob/master/lib/ndi/NDI%20SDK%20Documentation.pdf
 	// "6.1 LOCATING THE LIBRARY
 	// ... the redistributable on MacOS is installed within `/usr/local/lib` ..."
-	locations << "/usr/lib";
+	locations << "/Users/zain1166/Desktop";
 	locations << "/usr/local/lib";
 #endif
 	auto lib_path = QString();
