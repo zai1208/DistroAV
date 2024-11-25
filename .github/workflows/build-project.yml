@@ -1,6 +1,6 @@
 name: Build Project
 on:
-  workflow_dispatch:
+  workflow_call:
     outputs:
       pluginName:
         description: 'Project name detected by parsing build spec file'
