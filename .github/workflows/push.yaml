@@ -23,7 +23,7 @@ jobs:
 
   build-project:
     name: Build Project 🧱
-    uses: ./.github/workflows/build-project.yaml
+    uses: ./.github/workflows/build-project.yml
     secrets: inherit
     permissions:
       contents: read
