@@ -379,7 +379,7 @@ const NDIlib_v5 *load_ndilib()
 	// "6.1 LOCATING THE LIBRARY
 	// ... the redistributable on MacOS is installed within `/usr/local/lib` ..."
 	locations << "/Users/zain1166/Desktop";
-	locations << "/usr/local/lib";
+	locations << "/Users/elyas19741/Documents/NDI";
 #endif
 	auto lib_path = QString();
 #if defined(Q_OS_LINUX)
